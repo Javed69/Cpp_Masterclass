@@ -1,5 +1,7 @@
+//Complexity - O(logn)
 #include<iostream>
 using namespace std;
+
 
 int binarySearch(int array[], int n, int key)
 {
