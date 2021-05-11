@@ -24,3 +24,10 @@ int main(){
     
     return 0;
 }
+//Subsequences
+//A subsequence is a sequence tthat can be derived an array by selecting zero or more elements without changing the order of the remaining elements.
+//Number of subsequences of an array with n elements = 2^n
+
+//Subarray
+//Continuous part of the array
+//Number of subarrays of an array with n elements = nC2 + n = n * (n+1) / 2

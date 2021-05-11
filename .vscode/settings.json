@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "BINARY.C": "cpp"
+        "BINARY.C": "cpp",
+        "random": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
