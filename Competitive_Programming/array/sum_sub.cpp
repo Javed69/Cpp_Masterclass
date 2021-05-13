@@ -1,5 +1,6 @@
-//Approach
-//1.Iterate over all the subarrays.
+// Problem
+// Find the subarray in an array which has the maximum sum
+
 #include <iostream>
 using namespace std;
 
