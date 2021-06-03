@@ -27,7 +27,7 @@ int main()
                 maxLen = currentLen;
                 maxst = st;
             }
-             currentLen = 0;
+            currentLen = 0;
 
         }
         else
