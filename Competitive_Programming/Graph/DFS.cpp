@@ -13,6 +13,7 @@ vector<int> adj[N];
 
 void dfs(int node)
 {
+    
     // preorder
     vis[node] = 1;
     cout << node << " ";
@@ -39,10 +40,12 @@ int main()
     }
     
     // Take input as number of nodes and edges
+    cout << "Input number of nodes and edges :" << endl;
     int n, m;
     cin >> n >> m;
     
     // Take the connection from one node to another in case of undirected graph
+    cout << "Input the edges from the nodes :" << endl;
     int x, y;
     for(int i = 0; i < m; i++)
     {
@@ -52,6 +55,7 @@ int main()
         adj[y].push_back(x);
     }
     
+    cout << "Depth First Search :" << endl;
     dfs(1);
    
     return 0;
