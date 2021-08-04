@@ -18,3 +18,6 @@ int main()
 
     cout << "Empty or not" << s.empty() << endl;
 }
+
+
+

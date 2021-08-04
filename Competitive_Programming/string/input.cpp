@@ -12,7 +12,7 @@ int main()
     // Input from user
     string str;
     getline(cin, str);
-    ut << str << endl;
+    cout << str << endl;
 
     // Different function in string
     string s1 = "fam";
